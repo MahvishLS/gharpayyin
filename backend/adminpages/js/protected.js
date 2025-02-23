@@ -38,7 +38,7 @@ function loadProtectedPage(page) {
     return;
   }
 
-  fetch(`http://localhost:5000/${page}`, {
+  fetch(`/${page}`, {
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
   })
