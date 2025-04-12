@@ -32,7 +32,7 @@ const upload = multer({
       cb(null, true);
     } else {
       cb(new Error('Only images are allowed (jpeg, jpg, png)'));
-    }
+    } 
   },
 });
 
